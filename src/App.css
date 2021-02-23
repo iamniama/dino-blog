@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Stick&display=swap');
+
 .App {
   text-align: center;
+  background-color: #316923;
+  color: whitesmoke;
 }
 
 .App-logo {
@@ -13,8 +17,23 @@
   }
 }
 
+.ar-title{
+  font-family: 'Stick', sans-serif;
+}
+
+.ar-body{
+  font-family: 'Akaya Telivigala', cursive;
+  letter-spacing: 1px;
+}
+
+.cmnt-block{
+  font-family: 'Akaya Telivigala', cursive;
+  letter-spacing: 1px;
+  font-size: .75rem;
+}
+
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
