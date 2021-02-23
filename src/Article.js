@@ -1,14 +1,21 @@
 import Comments from "./Comments";
 
+
 function Article(props) {
+    const post = {
+        title: props.title,
+        author: props.author,
+        body: props.body,
+        comments: props.comments
+    }
     return (
         <div>
-            <h1 className="ar-title">"{props.title}" </h1>
-            <h3 className="ar-title">by: {props.author}</h3>
+            <h1 className="ar-title">"{post.title}" </h1>
+            <h3 className="ar-title">by: {post.author}</h3>
             <div className="ar-body">
-                <p>{props.body}</p>
+                <p>{post.body}</p>
             </div>
-            <Comments comments={props.comments}/>
+            <Comments comments={post.comments}/>
         </div>
     )
 }

@@ -40,6 +40,10 @@ ul{
 
 }
 
+li{
+  margin-bottom: 5px;
+}
+
 .App-header {
 
   min-height: 100vh;
