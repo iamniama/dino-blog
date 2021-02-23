@@ -24,12 +24,14 @@
 .ar-body{
   font-family: 'Akaya Telivigala', cursive;
   letter-spacing: 1px;
+  border: 1px solid darkgreen;
 }
 
 .cmnt-block{
   font-family: 'Akaya Telivigala', cursive;
   letter-spacing: 1px;
   font-size: .75rem;
+  border: 1px solid darkgreen;
 }
 
 ul{
