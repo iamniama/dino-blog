@@ -31,7 +31,7 @@ function Article(props) {
             <div className="ar-body">
                 <p>{post.body}</p>
             </div>
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="primary" size="sm" onClick={handleShow}>
                 Launch Bootstrap Modal
             </Button>
             <Modal show={show} onHide={handleClose}>
@@ -43,7 +43,7 @@ function Article(props) {
                 <Modal.Body>
                     <Form.Group >
                         <Form.Label>Update Post: </Form.Label>
-                        <Form.Control type="textarea" onChange={handleChange} value={tempData} placeholder="name input"/>
+                        <Form.Control as="textarea" onChange={handleChange} value={tempData} placeholder="name input"/>
                     </Form.Group>
                 </Modal.Body>
 
